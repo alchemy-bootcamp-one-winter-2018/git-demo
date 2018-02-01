@@ -1,5 +1,7 @@
 # Git Demo
 
+(:
+
 ##  Set up!
 - `git init`
     - initialize a git repo in a folder
