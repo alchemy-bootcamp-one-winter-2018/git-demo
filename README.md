@@ -17,3 +17,11 @@
     - push any commits to github
 
 ## Branching
+- `git branch`
+    - list branches on local repo
+- `git branch <name>`
+    - creates a new branch
+- `git checkout <name>
+    - switches to specified branch
+- `git checkout -b <name>`
+    - create and switch to a new branch
