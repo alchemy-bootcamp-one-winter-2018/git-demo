@@ -1,0 +1,109 @@
+/* * {
+    border: black solid 1px;
+} */
+
+html, body {
+    min-width: 1000px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* TODO fix at top of page */
+    position: fixed;
+    width: 100%;
+
+    background-color: white;
+    z-index: 2;
+}
+
+nav ul {
+    /* TODO use flexbox instead*/
+
+    padding: 0;
+    margin: 0 auto;
+    /* width: fit-content; */
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+nav li {
+    list-style: none;
+    padding: 10px 10px;
+    /* display: inline-block; */
+}
+
+main {
+    text-align: center;
+    padding-top: 150px;
+    /* background-color: #FF00FF; */
+    background-color: rgb(50,20,200);
+}
+
+main aside,
+main section {
+    border-color: orange;
+
+    min-height: 100px;
+    margin: 0 10px;
+
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*  asides  */
+main aside {
+    width: 250px;
+    min-height: 400px;
+    
+    padding: 10px;
+    position: sticky;
+    top: 120px;
+
+    background-color: hsla(60,100%,50%,.8);
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside li {
+    margin: 2px;
+    padding: 5px;
+    border: 1px gray solid;
+}
+
+aside figure img {
+    width: 100%;
+}
+
+/* tweet-esque cards */
+.card {
+    border-color: red;
+
+    min-height: 200px;
+    width: 400px;
+    position: relative;
+
+    background-color: rgba(255,255,255,.8);
+}
+
+.card p {
+    margin-top: 80px;
+}
+
+.card time {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.avatar {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
