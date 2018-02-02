@@ -27,3 +27,8 @@
     - switches to specified branch
 - `git checkout -b <name>`
     - create and switch to a new branch
+    
+## Deploy to GH-Pages
+- `git checkout -b gh-pages`
+    - gh-pages is the branch that will be published! so make sure it's what you want to publish
+- in your browser visit: `<your-gh-username>.github.io/<repo-name>`
